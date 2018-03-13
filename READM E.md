@@ -19,8 +19,14 @@ It's time for CSS and JS files copy all and put them in `public/` folder.
 
 Now I will give a small example to how you can require them 
 Let we imagine that in our public filder we have two folders 
+
 1- css include this main.css
+
 2- js  include this main.js
+
+`<link href="{{ asset('css/main.css') }}" >`
+
+`<script src="{{ asset{'js/main.js') }} "></script>`
 
 
  .
