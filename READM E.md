@@ -10,5 +10,18 @@ Open project folder then open .env.example file then put all necessary informati
 Then run `php artisan migrate`then `php artisan db:seed` then `php artisan serve` to run the server 
 
 ## configuration theme files 
-Know you must convert all .html files to .blade.php then put all new .blade.php files in `resources/views `
+* Template structure
 
+Know you must convert all .html files to .blade.php then put all new .blade.php files in `resources/views `
+It's time for CSS and JS files copy all and put them in `public/` folder.
+
+* Requiring CSS and JavaScript files correctly in our template
+
+Now I will give a small example to how you can require them 
+Let we imagine that in our public filder we have two folders 
+1- css include this main.css
+2- js  include this main.js
+
+
+ .
+ 
