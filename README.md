@@ -28,6 +28,15 @@ Let we imagine that in our public filder we have two folders
 
 `<script src="{{ asset{'js/main.js') }} "></script>`
 
+# Displaying Data in your Template
+
+## Basic Info 
+  * Your Title : `{{ $info->name }}`.
+  * Your Jops  : you will find a test file in resources/views ,
+  * Your Photo Link : `{{ $info->photo }}` .
+  *
+   
+ 
 
  .
  
