@@ -4,10 +4,10 @@
 use Illuminate\Http\Request;
 
 
-Route::get('/',"HomeController@index")->name("home");
-/*Route::get("/post",function(Request $r,$name = null){
-});
-*/
+Route::post('contact',"HomeController@contact")->name("contact");
+
+Route::get('/',"IndexController@index")->name("home");
+
 
 Route::namespace('Dash')->group(function (){
     Route::middleware('auth')->group(function(){
@@ -44,5 +44,4 @@ Route::namespace('Dash')->group(function (){
     });
 });
 Auth::routes();
-
 

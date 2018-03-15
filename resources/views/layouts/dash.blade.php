@@ -46,7 +46,8 @@
 <!-- Sidebar menu-->
 <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
 <aside class="app-sidebar">
-    <div class="app-sidebar__user"><img style="width:50px;" class="app-sidebar__user-avatar" src="{{ asset("$info->photo") }} " alt="User Image">
+    <div class="app-sidebar__user">
+        <img style="width:10vh; height:10vh;" class="app-sidebar__user-avatar" src="{{ asset("$info->photo") }} " alt="User Image">
         <div>
             <p class="app-sidebar__user-name">{{ $info->name }}</p>
         </div>

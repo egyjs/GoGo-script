@@ -136,11 +136,6 @@ class DashController extends Controller
         return $this->features();
     }
 
-    public function skills(){
-        $ser = Protofolio::all();
-        $info  = Info::first();
-        return view('dash.work.all',compact('info','ser'));
-    }
 
 
     // Custom Function

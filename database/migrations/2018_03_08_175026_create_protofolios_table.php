@@ -18,6 +18,7 @@ class CreateProtofoliosTable extends Migration
             $table->increments('id');
             $table->string('head');
             $table->string('tag');
+            $table->string('img');
             $table->text('body')->nullable(true);
             $table->text('link')->nullable(true);
             $table->timestamps();

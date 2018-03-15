@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "youssef20000/gogo-landing-v1",
+    "description": "Laravel Script hat Convert HTML Template T A dynamic Template Without Writing Any Complex Php code .",
+    "keywords": ["framework","Gogo Scripts","Portfolio","Dynamic Portfolio","laravel Scripts","Landing Pages"],
     "license": "MIT",
     "type": "project",
     "require": {

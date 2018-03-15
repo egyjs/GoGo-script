@@ -18,11 +18,13 @@ class CreateInfosTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('jobs');
-            $table->string('fb');
-            $table->string('insta');
-            $table->string('yt');
-            $table->string('in');
-            $table->string('paint');
+            $table->string('locat')->nullable(true);
+            $table->string('email');
+            $table->integer('phone')->nullable(true);
+            $table->string('fb')->nullable(true);
+            $table->string('tw')->nullable(true);
+            $table->string('yt')->nullable(true);
+            $table->string('in')->nullable(true);
             $table->string('photo');
             $table->string('icon');
             $table->timestamps();
