@@ -7,7 +7,7 @@ First we want to tell you that our project based on laravel so if you know about
 
 Run `git clone` or download the project then run `composer install` 
 Open project folder then open .env.example file then put all necessary information in the file 
-Then run `php artisan migrate`then `php artisan db:seed` then `php artisan serve` to run the server 
+Then run `php artisan key:generate` then copy the key and put it in .env file then `php artisan migrate`then `php artisan db:seed` then `php artisan serve` to run the server 
 
 ## configuration theme files 
 * Template structure
@@ -29,13 +29,9 @@ Let we imagine that in our public filder we have two folders
 `<script src="{{ asset{'js/main.js') }} "></script>`
 
 # Displaying Data in your Template
+You Will Find Every Thing Yu Want To know In `resources/views/welcome.blade.php`
 
-## Basic Info 
-  * Your Title : `{{ $info->name }}`.
-  * Your Jops  : you will find a test file in resources/views ,
-  * Your Photo Link : `{{ $info->photo }}` .
-  *
-   
+# Have A nice And not forget to add your information in .env.example and rename it to .env
  
 
  .
