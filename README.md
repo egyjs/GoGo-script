@@ -1,5 +1,5 @@
 # GoGo Script 
-Convert any HTML landing page or portfolio to a dynamic web site using GoGo Script
+Convert any HTML landing page or portfolio to a dynamic web site using Go-Go Script
 
 First we want to tell you that our project based on laravel so if you know about laravel you can easily understood our code but we will teach everything
 
